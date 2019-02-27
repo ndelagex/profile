@@ -1,0 +1,82 @@
+style.css
+
+h1, h2, h3 {
+  color: green;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+body {
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-color: grey;
+}
+
+#movies img {
+    width: 100px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline li i {
+    font-size: 25px;
+}
+
+.social-links i {
+  display: block;
+  padding: 0;
+}
+
+.social-links {
+  padding: 0;
+  text-align: center;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
